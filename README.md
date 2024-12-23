@@ -57,6 +57,8 @@ This project provides a secure and scalable web application infrastructure on AW
   - Internet Gateway
   - VPC Peering
   - Route Tables
+  - Application Load Balancer
+  - Target Group
 - **Docker**: For containerizing and deploying the web application.
 - **Bash Scripts**: For automating the setup of infrastructure and software.
 
