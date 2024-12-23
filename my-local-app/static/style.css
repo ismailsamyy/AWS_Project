@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.game-container {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+canvas {
+    margin: 20px;
+    background-color: #fff;
+    border: 2px solid #000;
+}
+
+#catImage {
+    width: 300px;
+    height: auto;
+    margin-left: 30px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+/* Ensuring the buttons appear beneath the canvas */
+#startButton, #easyButton, #hardButton {
+    margin-top: 10px;
+}
+
