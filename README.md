@@ -1,4 +1,4 @@
-# # AWS Multi-VPC Infrastructure for Web Application
+# AWS Multi-VPC Infrastructure for Web Application
 
 ## Overview
 This project provides a secure and scalable web application infrastructure on AWS. It uses **Terraform** to provision resources, ensuring Infrastructure-as-Code (IaC) principles are applied. The architecture is divided into two VPCs to segregate application-specific resources and shared resources, with secure connectivity and automated provisioning.
